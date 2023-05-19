@@ -1,0 +1,41 @@
+* {
+    Box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+}
+
+.top{
+    border: solid;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    margin: 0 100px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.input-info{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+#toDoListInput{
+    margin: 20px 0 20px 0;
+}
+
+#task{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+button {
+    margin:20px 0 20px 0;
+}
